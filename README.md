@@ -4,3 +4,5 @@
  Run the Game.py file after downloading all the files and images in a folder.
 
  If you are using a mac, just download the Game.app file and use it to run the game.
+ 
+ Since the games are auto-generated, the solver might take time to solve the entire board.
