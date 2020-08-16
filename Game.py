@@ -112,6 +112,10 @@ def addNumbers():
 
 
 def autoSolveProtocol(game):
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+
     found = find_emp(game)
     if found is not None:
         row, col = found
